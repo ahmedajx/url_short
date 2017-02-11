@@ -18,4 +18,4 @@
 
 ```
 
-2. (GET) https://c4ulf0pw7c.execute-api.eu-west-1.amazonaws.com/k/c8tTq
+GET https://c4ulf0pw7c.execute-api.eu-west-1.amazonaws.com/k/c8tTq
