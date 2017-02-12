@@ -11,7 +11,8 @@ exports.handle = function(e, ctx, cb) {
     var long = e.url
     if (
         long.substring(0, 3) === "www" ||
-        long.includes("www") === false
+        long.includes("www") === false &&
+        long.includes("http") === false
     ){
         long = "http://" + e.url
     }
