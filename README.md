@@ -1,6 +1,13 @@
 ## Current Endpoints
 
- POST https://c4ulf0pw7c.execute-api.eu-west-1.amazonaws.com/k/add
+
+ 
+```
+curl -H "Content-Type: application/json" -X POST -d '{"url" : "livescore.com"}' https://c4ulf0pw7c.execute-api.eu-west-1.amazonaws.com/k/add
+
+```
+
+POST https://c4ulf0pw7c.execute-api.eu-west-1.amazonaws.com/k/add
 
 ### Headers
 |         |      | 
